@@ -12,7 +12,7 @@ from django.db.models import Model
 def key_for_model(model):
     key = "{module}.{klass}/{id}".format(module=model.__module__, klass=model.__class__.__name__, id=model.id)
     if hasattr(model, 'date_modified'):
-        key += "/" + model.date_modified.replace(microsecond=0).isoformat()
+        key += "/" + model.date_modified.isoformat()
     else:
         key += "/nodate"
     return key
