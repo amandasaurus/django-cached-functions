@@ -2,7 +2,7 @@
 
 from setuptools import setup, find_packages
 
-setup(name="django-cache-properties",
+setup(name="django-cached-functions",
       version="0.1",
       author="Rory McCann",
       author_email="rory@technomancy.org",
