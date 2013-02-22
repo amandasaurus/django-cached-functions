@@ -26,11 +26,11 @@ Usage
 
  1. On a function you want to cache:
 
-    class MyModel(Model):
-        
-        @cached_function
-        def my_function(self):
-            …
+        class MyModel(Model):
+            
+            @cached_function
+            def my_function(self):
+                …
 
 Function Arguments
 ==================
