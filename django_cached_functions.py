@@ -23,7 +23,7 @@ def key_for_kwargs(kwargs):
         value = kwargs[key]
         if isinstance(value, Model):
             new_dict.append((key, key_for_model(value)))
-        elif any(isinstance(value, safetype) for safetype in [str, unicode, bool, int]):
+        elif value is None or any(isinstance(value, safetype) for safetype in [str, unicode, bool, int]):
             new_dict.append((key, repr(value)))
         else:
             raise TypeError("Unsupported type")
