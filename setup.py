@@ -3,7 +3,7 @@
 from setuptools import setup, find_packages
 
 setup(name="django-cached-functions",
-      version="0.1",
+      version="0.1.1",
       author="Rory McCann",
       author_email="rory@technomancy.org",
       py_modules=['django_cached_functions'],
