@@ -93,3 +93,7 @@ this sort of thing.
    Adds a signal handler to every method save which updates the cache. This
    might not be a good idea for some applications
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/rory/django-cached-functions/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
